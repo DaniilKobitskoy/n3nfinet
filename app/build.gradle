@@ -15,8 +15,8 @@ android {
         applicationId "app1.xstavka1.xbet1.xbet.pin.up.xbet1.x.stavka.bet"
         minSdk 21
         targetSdk 32
-        versionCode 45
-        versionName "1.45"
+        versionCode 46
+        versionName "1.46"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
