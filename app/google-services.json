@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "885266000521",
+    "project_id": "nfibet3",
+    "storage_bucket": "nfibet3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885266000521:android:3e82265848960f48303458",
+        "android_client_info": {
+          "package_name": "app1.xstavka1.xbet1.xbet.pin.up.xbet1.x.stavka.bet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885266000521-lcbli85q6im07n7qhfndtufnlat7q05v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app1.xstavka1.xbet1.xbet.pin.up.xbet1.x.stavka.bet",
+            "certificate_hash": "a1520cec6560a7307c49f48669c2d8d4f643b0dc"
+          }
+        },
+        {
+          "client_id": "885266000521-qer4utkdks6e9edumldr3u5o27ae3pq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArIlqhYZMil-kNEoD1k6aL47zjjnoE3a8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885266000521-qer4utkdks6e9edumldr3u5o27ae3pq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

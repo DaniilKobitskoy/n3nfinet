@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".main_param_main_project"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/nfibet3icon"
+        android:label="@string/nfibet3_app_name_2"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/nfibet3icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Most"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+
+        <activity
+            android:name=".calc_main_project"
+            android:exported="false" />
+        <activity
+            android:name=".listen_main_project"
+            android:exported="false" />
+        <activity
+            android:name=".menu_main_project"
+            android:exported="false" />
+        <activity
+            android:name=".main_main_project"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

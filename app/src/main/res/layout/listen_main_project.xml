@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/winline_bet_02Listen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/nfibet2"
+  tools:context=".listen_main_project">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/nfibet3_bet_02Play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/nfibet3_02navi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/nfibet3_white"
+            app:tabBackground="@drawable/nfibet3_tabbarplay"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp" />
+    </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

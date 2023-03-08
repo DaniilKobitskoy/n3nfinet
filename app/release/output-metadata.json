@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "app1.xstavka1.xbet1.xbet.pin.up.xbet1.x.stavka.bet",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 38,
+      "versionName": "1.38",
+      "outputFile": "app-release.apk"
+    }
+  ],
+  "elementType": "File"
+}
